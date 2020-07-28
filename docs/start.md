@@ -38,4 +38,4 @@ In v3 of Galactic, the ban commands (tempban, hardban & ban) will all be one com
 i.e. `-softban @user reason` **will be identical to** `-ban @user --soft reason`.
 
 ### ❯ Syntax
-
+`{prefix}command arguments`
