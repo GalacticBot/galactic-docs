@@ -1,6 +1,6 @@
 {
-  "name": "my-website",
-  "version": "0.0.0",
+  "name": "galactic-docs",
+  "version": "0.0.5",
   "private": true,
   "scripts": {
     "start": "docusaurus start",

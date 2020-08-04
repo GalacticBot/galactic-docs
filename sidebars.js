@@ -12,7 +12,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Settings',
-      items: ['settings/mod', 'settings/util']
+      items: ['settings/admin', 'settings/mod', 'settings/util']
     },
     {
       type: 'doc',
