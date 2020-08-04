@@ -1,12 +1,12 @@
 ---
-id: mod
-title: Moderation settings
-sidebar_label: Moderation
+id: admin
+title: Administration settings
+sidebar_label: Administration
 ---
 
 ### Purpose
-Configuration for server's moderation settings.
+Configuration for server's administrative settings.
 
 | Name         | Arguments                           | Description                                                                  |
 |--------------|-------------------------------------|------------------------------------------------------------------------------|
-|automod       | <type\>                             | Configures whether the bot uses discord permissions or built-in permissions. |
+|permissiontype| <type\>                             | Configures whether the bot uses discord permissions or built-in permissions. |
