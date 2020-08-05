@@ -4,13 +4,28 @@ title: Getting started with Galactic
 sidebar_label: Getting started
 ---
 
-**TL;DR**  
+**TL; DR**  
 Advanced moderation bot for servers of any size.
 
 <!--truncate-->
 
+:::caution WIP
+Be aware that the documentation is still in its very early stages and prone to lacking in explanations and documentation. Everything is being worked on, especially the bot, which makes keeping the documentation up to date a challenge.
+
+If you wish to contribute to the documentation, see our [github page](https://github.com/Navy-gif/galactic-docs) for further information.
+:::
+
+:::caution Warning: 3 different versions, know the difference
+There are currently 3 versions of Galactic.  
+V1 is completely discontinued and nothing is guaranteed to work.  
+V2 is maintained though development is discontinued in favour of working on V3.  
+V3 is the latest version and most likely the one that is here to stay. It is still in early development.  
+
+**You can read more about the versions at the bottom of this page.**
+:::
+
 ### ❯ Introduction - What is Galactic?
-Galactic is a powerful moderation bot for servers of all sizes.
+Galactic is a powerful moderation bot for servers of all sizes. Galactic also provides some utility features on top of moderation. Everything on the bot serves some kind of purpose, though not everything may be applicable for you needs and as such some features can be turned off per server.
 
 ### ❯ Features
 As Galactic is a moderation bot at its core, it naturally has a bunch of moderation commands. This is naturally accompanied by moderation logging and making sure the user is aware of the infraction (provided the configuration is set correctly). The bot allows for fairly extensive configuration for you to tailor it to your server's needs.
@@ -39,3 +54,11 @@ i.e. `-softban @user reason` **will be identical to** `-ban @user --soft reason`
 
 ### ❯ Syntax
 `{prefix}command arguments`
+
+### ❯ Versions
+
+**V1**  
+V1 is the original Galactic Bot, still running on its old code from its early days. It currently has a blue profile picture and is serving the largest amount of servers of the three bots.
+
+**V2**  
+V2 is the second generation of Galactic. While being a more modern version of the bot, it had some design flaws that needed amending. As such we're now working on the 3rd generation. V2 uses an orange profile picture and is running on a client called GalacticTest.
