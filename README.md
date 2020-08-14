@@ -18,4 +18,4 @@ Further documentation for Docusaurus and its configuration can be found at https
 The documentation might be in .md files, however, docusaurus uses an extended markdown parser along with some of its own stuff, meaning a lot of the pages will display with formatting on github, however, not in the form they are intended to be displayed.
 
 ## Want to contribute?
-See CONTRIBUTING.md for further information.
+See [CONTRIBUTING](https://github.com/Navy-gif/galactic-docs/blob/master/CONTRIBUTING.md) for further information.
