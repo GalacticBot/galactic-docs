@@ -7,6 +7,8 @@ module.exports = {
   organizationName: 'galacticbot', // Usually your GitHub org/user name.
   projectName: 'galacticbot', // Usually your repo name.
   themeConfig: {
+    hideableSidebar: true,
+    sidebarCollapsible: true,
     navbar: {
       title: 'Galactic Bot',
       logo: {

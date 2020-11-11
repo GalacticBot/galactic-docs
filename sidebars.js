@@ -7,12 +7,37 @@ module.exports = {
     {
       type: 'category',
       label: 'Commands',
-      items: ['commands/admin', 'commands/mod', 'commands/info', 'commands/util', 'commands/misc' ]
+      items: [
+        'commands/admin',
+        'commands/mod',
+        'commands/info',
+        'commands/util',
+        'commands/misc'
+      ]
     },
     {
       type: 'category',
       label: 'Settings',
-      items: ['settings/admin', 'settings/mod', 'settings/util']
+      items: [
+        {
+          type: 'category',
+          label: 'Administration',
+          items: ['settings/admin']
+        },
+        {
+          type: 'category',
+          label: 'Moderation',
+          items: [
+            'settings/moderation/wf',
+            'settings/moderation/ww'
+          ]
+        },
+        {
+          type: 'category',
+          label: 'Utility',
+          items: ['settings/util']
+        }
+      ]
     },
     {
       type: 'doc',
