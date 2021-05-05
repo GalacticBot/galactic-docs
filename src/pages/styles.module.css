@@ -5,6 +5,10 @@
  * and scoped locally.
  */
 
+ :root {
+   --ifm-color-primary: #0274CC
+ }
+
 .heroBanner {
   padding: 4rem 0;
   text-align: center;

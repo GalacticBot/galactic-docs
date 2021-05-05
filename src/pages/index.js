@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: <>Powerful</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/Rocket.png',
     description: (
       <>
         The Bot has several features crucial for server moderation built into it. 
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: <>Powered by Node.js</>,
-    imageUrl: 'https://www.simpalm.com/wp-content/uploads/2017/08/nodejs-logo-1.png',
+    imageUrl: 'https://nodejs.org/static/images/logo.svg',
     description: (
       <>
         Galactic Bot is built in Node.js using the Discord.js library. The Bot also utilizises
