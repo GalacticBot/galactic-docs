@@ -5,7 +5,7 @@ sidebar_label: Word Watcher
 ---
 
 Flags messages that are matched into a channel with a direct link to the message and context.  
-Intended for servers that do not want automatic message deletion for offending messages, but would still like for such messages to be flagged.
+Intended for servers that do not want automatic message deletion for every offending message, but would still like for such messages to be flagged.
 
 ## Syntax  
 `-settings wordfilter <option> [value]`  

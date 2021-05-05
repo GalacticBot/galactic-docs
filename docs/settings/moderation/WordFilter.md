@@ -21,6 +21,7 @@ Any suggestions/recommendations can be directed into the discord server in the #
 `whitelist` - List of words that are to be ignored by any bypass checking lists, add words to this if they are being flagged falsely by the bot's bypass checks.  
 
 **\***All messages are interpreted as text, as in, any emoji letters, special characters etc will be interpreted as their plaintext counterparts.  
+Note that some characters may still bypass this, please report such characters in our support server.  
 
 ## Presets  
 `slurs` - contains the most common slurs and variations  

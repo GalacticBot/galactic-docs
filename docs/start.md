@@ -28,7 +28,9 @@ V3 is the latest version and most likely the one that is here to stay. It is sti
 Galactic is a powerful moderation bot for servers of all sizes. Galactic also provides some utility features on top of moderation. Everything on the bot serves some kind of purpose, though not everything may be applicable for you needs and as such some features can be turned off per server.
 
 ### ❯ Features
-As Galactic is a moderation bot at its core, it naturally has a bunch of moderation commands. This is naturally accompanied by moderation logging and making sure the user is aware of the infraction (provided the configuration is set correctly). The bot allows for fairly extensive configuration for you to tailor it to your server's needs.
+As Galactic is a moderation bot at its core, it naturally has a bunch of moderation commands. This is accompanied by moderation logging and making sure the user is aware of the infraction (provided the configuration is set correctly). The bot allows for fairly extensive configuration for you to tailor it to your server's needs.  
+
+Galactic also has some premium features that build on top of the existing features, such as attachment logs for message logging. All core moderation features will always remain free for everyone.
 
 ### ❯ Documentation notation
 **Optional** arguments are denoted by being encapsulated in brackets `[ ]` - means that the command will run either with default values or show usage prompt.  
@@ -58,6 +60,7 @@ i.e. `-softban @user reason` **will be identical to** `-ban @user --soft reason`
 ### ❯ Versions
 
 **V1**  
+__No longer active, only V2 and V3 are active at this time__  
 V1 is the original Galactic Bot, still running on its old code from its early days. It currently has a blue profile picture and is serving the largest amount of servers of the three bots.
 
 **V2**  
