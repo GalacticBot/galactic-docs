@@ -17,7 +17,7 @@ If you wish to contribute to the documentation, see our [github page](https://gi
 
 :::caution Warning: 3 different versions, know the difference
 There are currently 3 versions of Galactic.  
-V1 is completely discontinued and nothing is guaranteed to work.  
+V1 ~~is completely discontinued and nothing is guaranteed to work.~~ Died completely in February 2021 due to RAID failure, all data was lost  
 V2 is maintained though development is discontinued in favour of working on V3.  
 V3 is the latest version and most likely the one that is here to stay. It is still in early development.  
 
