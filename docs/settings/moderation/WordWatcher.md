@@ -16,7 +16,7 @@ Intended for servers that do not want automatic message deletion for offending m
 ## Options  
 `<off>` - Turn watcher off.  
 `reset` - Resets the setting to default values.  
-`<method> <word>` -   
+`<method> <word>` - Add or remove entries from the watch list.  
 `bypass <method> <role resolvable>` - Configure the roles that can bypass the watcher.  
 `ignore <method> <channel resolvable>` - Configure the channels that are ignored by the watcher.  
 `<channel resolvable>` - The channel in which the watcher outputs in.

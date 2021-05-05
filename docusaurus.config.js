@@ -15,7 +15,7 @@ module.exports = {
         alt: 'Galactic Logo',
         src: 'img/GBotTest.png',
       },
-      links: [
+      items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
@@ -86,6 +86,7 @@ module.exports = {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
           homePageId: 'getting-started',
+          //frontmatter: 'slug: /',
           sidebarPath: require.resolve('./sidebars.js')
         },
         blog: {
