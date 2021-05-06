@@ -2,6 +2,7 @@
 id: getting-started
 title: Getting started with Galactic
 sidebar_label: Getting started
+slug: /
 ---
 
 **TL; DR**  

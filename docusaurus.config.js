@@ -39,12 +39,12 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Commands',
-              to: 'docs/commands',
+              label: 'Initial setup',
+              to: 'docs/tutorials/InitialSetup',
             },
             {
-              label: 'Settings',
-              to: 'docs/settings',
+              label: 'Moderation intro',
+              to: 'docs/tutorials/Moderation',
             },
           ],
         },
@@ -92,7 +92,7 @@ module.exports = {
       {
         docs: {
           // It is recommended to set document id as docs home page (`docs/` path).
-          homePageId: 'getting-started',
+          //homePageId: 'getting-started',
           //frontmatter: 'slug: /',
           sidebarPath: require.resolve('./sidebars.js')
         },
