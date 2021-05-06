@@ -1,3 +1,10 @@
+const fs = require('fs');
+
+const loadPages = (folder) => {
+  const pages = fs.readdirSync(`./docs/${folder}`);
+  return pages.map(page => `${folder}/${page.split('.')[0]}`);
+}
+
 module.exports = {
   docs: [
     {
@@ -22,20 +29,21 @@ module.exports = {
         {
           type: 'category',
           label: 'Administration',
-          items: ['settings/admin']
+          items: loadPages('settings/administration') //['settings/administration/admin']
         },
         {
           type: 'category',
           label: 'Moderation',
-          items: [
-            'settings/moderation/wf',
-            'settings/moderation/ww'
-          ]
+          items: loadPages('settings/moderation')
+          // [
+          //   'settings/moderation/wf',
+          //   'settings/moderation/ww'
+          // ]
         },
         {
           type: 'category',
           label: 'Utility',
-          items: ['settings/util']
+          items: loadPages('settings/utility') //['settings/utility/ar']
         }
       ]
     },
