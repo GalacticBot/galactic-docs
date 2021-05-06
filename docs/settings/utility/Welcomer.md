@@ -1,5 +1,5 @@
 ---
 id: Welcomer
-title: Welcomer settings
+title: Welcomer
 sidebar_label: Welcomer
 ---

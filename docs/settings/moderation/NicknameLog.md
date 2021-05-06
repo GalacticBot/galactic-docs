@@ -1,7 +1,7 @@
 ---
 id: NicknameLog
-title: Nickname logging settings
-sidebar_label: Nickname log
+title: Nickname logging
+sidebar_label: Nickname Logging
 ---
 
 

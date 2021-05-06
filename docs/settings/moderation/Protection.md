@@ -1,6 +1,6 @@
 ---
 id: Protection
-title: Protection settings
+title: Protection
 sidebar_label: Protection
 ---
 

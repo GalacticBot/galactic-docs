@@ -1,7 +1,7 @@
 ---
 id: MessageLog
-title: Message logging settings
-sidebar_label: Message logging
+title: Message logging
+sidebar_label: Message Logging
 ---
 
 

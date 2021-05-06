@@ -1,7 +1,7 @@
 ---
 id: ModerationPoints
-title: Moderation points settings
-sidebar_label: Moderation points
+title: Moderation points
+sidebar_label: Moderation Points
 ---
 
 

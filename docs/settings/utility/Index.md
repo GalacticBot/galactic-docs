@@ -1,5 +1,5 @@
 ---
 id: Index
-title: Server indexing settings
+title: Server indexing
 sidebar_label: Indexing
 ---

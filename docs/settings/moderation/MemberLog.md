@@ -1,7 +1,7 @@
 ---
 id: MemberLog
-title: Member logging settings
-sidebar_label: Member logging
+title: Member logging
+sidebar_label: Member Logging
 ---
 
 

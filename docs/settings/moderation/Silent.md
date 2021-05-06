@@ -1,6 +1,6 @@
 ---
 id: Silent
-title: Silence settings
+title: Silence 
 sidebar_label: Silent
 ---
 

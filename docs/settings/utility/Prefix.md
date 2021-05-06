@@ -1,5 +1,5 @@
 ---
 id: Prefix
-title: Prefix settings
+title: Prefix
 sidebar_label: Prefix
 ---

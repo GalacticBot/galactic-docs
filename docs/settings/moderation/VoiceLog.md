@@ -1,7 +1,7 @@
 ---
 id: VoiceLog
-title: Voice channel activity logging settings
-sidebar_label: Voice logging
+title: Voice channel activity
+sidebar_label: Voice Channel Logging
 ---
 
 

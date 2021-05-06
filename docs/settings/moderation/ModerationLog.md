@@ -1,7 +1,7 @@
 ---
 id: ModerationLog
-title: Moderation logging settings
-sidebar_label: Moderation log
+title: Moderation logging 
+sidebar_label: Moderation Logging
 ---
 
 

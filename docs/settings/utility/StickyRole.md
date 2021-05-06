@@ -1,5 +1,5 @@
 ---
 id: StickyRole
-title: Sticky role settings
+title: Sticky role
 sidebar_label: Sticky role
 ---

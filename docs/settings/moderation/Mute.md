@@ -1,6 +1,6 @@
 ---
 id: Mute
-title: Mute settings
+title: Mute
 sidebar_label: Mute
 ---
 

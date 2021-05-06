@@ -1,6 +1,6 @@
 ---
 id: Autorole
-title: Autorole settings
+title: Automatic role assignment 
 sidebar_label: Autorole
 ---
 

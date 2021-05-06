@@ -1,7 +1,7 @@
 ---
 id: IgnoreChannels
-title: Channel ignore settings
-sidebar_label: Channel ignore
+title: Channel ignoring 
+sidebar_label: Channel Ignore
 ---
 
 Have the bot ignore commands from users in certain channels. Lets you define roles that bypass the ignore.
