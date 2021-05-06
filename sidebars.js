@@ -13,7 +13,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Tutorials',
+      label: 'Guides',
       items: [
         'tutorials/InitialSetup',
         'tutorials/Moderation',
