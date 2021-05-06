@@ -1,5 +1,5 @@
 ---
-id: ww #Word watcher
+id: WordWatcher #Word watcher
 title: Word Watcher #Moderation settings
 sidebar_label: Word Watcher
 ---

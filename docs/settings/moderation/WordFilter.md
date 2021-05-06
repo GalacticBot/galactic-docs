@@ -1,5 +1,5 @@
 ---
-id: wf #Word filter
+id: WordFilter #Word filter
 title: Word Filter #Moderation settings
 sidebar_label: Word Filter
 ---
