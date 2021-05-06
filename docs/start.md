@@ -65,3 +65,6 @@ V1 is the original Galactic Bot, still running on its old code from its early da
 
 **V2**  
 V2 is the second generation of Galactic. While being a more modern version of the bot, it had some design flaws that needed amending. As such we're now working on the 3rd generation. V2 uses an orange profile picture and is running on a client called GalacticTest.
+
+**V3**  
+V3 is the third and hopefully final generation of Galactic. It is currently in development with most of the basic functionality already implemented.

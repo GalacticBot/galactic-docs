@@ -9,7 +9,7 @@ A fairly robust word filtering utility. Keep in mind that no word filter will ev
 Any suggestions/recommendations can be directed into the discord server in the #suggestions channel.
 
 ## Syntax  
-`-settings wordfilter <option> [value]`  
+`-settings wordfilter <option> <method> [value]`  
 
 ## Methods  
 `add, remove, set, reset, list`  
