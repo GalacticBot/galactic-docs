@@ -75,6 +75,10 @@ module.exports = {
             {
               label: 'Patreon',
               href: 'https://www.patreon.com/galacticbot'
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/GalacticBot/galactic-docs'
             }
           ],
         },

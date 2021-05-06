@@ -13,6 +13,14 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Tutorials',
+      items: [
+        'tutorials/InitialSetup',
+        'tutorials/Moderation',
+        'tutorials/Filters']
+    },
+    {
+      type: 'category',
       label: 'Commands',
       items: [
         'commands/admin',
