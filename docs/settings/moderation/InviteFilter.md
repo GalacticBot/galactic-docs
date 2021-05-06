@@ -23,3 +23,4 @@ Configure filtering of discord invites.
 `-settings invitefilter ignore set #self-promo`  
 
 ## Action triggers  
+The invite filter currently only has generic action triggers (cannot be specified).

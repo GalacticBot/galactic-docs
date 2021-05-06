@@ -38,6 +38,9 @@ Full list of the preset contents will be available at the bottom soon.
 `ignore <method> <channel resolvable>` - Configure the channels that are ignored by the filter.  
 `silent <on|off>` - Toggle inline (responses directly in the channel to the filtered user) responses on or off.  
 `presets <method> <preset>` - Add a preset filter list to the filter.  
-`actions <method>` - You can read the detailed documentation about configuring actions [here](../../tutorials/Filters).  
+`action <method>` - You can read the detailed documentation about configuring actions [here](../../tutorials/Filters).  
+
+## Examples  
+
 
 ## Action triggers  

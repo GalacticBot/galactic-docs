@@ -8,6 +8,8 @@ All of the various filters on the bot support automated moderation actions for f
 
 Configuring the filters is fairly simple through the step-by-step prompts. To start the prompts issue the relevant option for the filter, i.e. `-settings <filter> actions add`.  
 
+Sometimes the bot takes a few seconds to delete filtered messages, this is intentional as it is done to alleviate rate limiting issues. In turn if someone is spamming filtered content, the bot will remove all of it in batches.  
+
 :::caution NOTE
 Depending on the server configuration, some prompts will not display. For instance, the mod points prompt will not display unless you have them enabled!
 :::
