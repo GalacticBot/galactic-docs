@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Galactic Bot',
   tagline: 'Advanced moderation bot for your Discord server',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.corgi.wtf',
   baseUrl: '/',
   favicon: 'img/GBotTest.ico',
   organizationName: 'galacticbot', // Usually your GitHub org/user name.
@@ -102,7 +102,12 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          trailingSlash: false,
+        }
       },
     ],
-  ],
+  ]
 };
