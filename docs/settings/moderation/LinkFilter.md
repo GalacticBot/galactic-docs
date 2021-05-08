@@ -9,13 +9,17 @@ Configure filtering of links based on domains. Can operate in blacklist or white
 ## Syntax  
 `-settings linkfilter <option|method> <method|value> [value..]`
 
+## Aliases  
+N/A
+
 ## Methods  
-`on, off, set, reset, add, remove`
+`set, reset, add, remove`
 
 ## Presets  
 **TODO**
 
 ## Options  
+`<on|off>` - Turn filtering on or off.  
 `<blacklist|whitelist> <method> <value..>` - Add or remove entries from either the blacklist or whitelist.  
 `ignore <method> <channel..>` - Define which channels links always allowed in.  
 `bypass <method> <role..>` - Define the roles that bypass the filter.  

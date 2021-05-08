@@ -4,9 +4,10 @@ title: Voice channel activity
 sidebar_label: Voice Channel Logging
 ---
 
+Configure logging of voice channel leaving and joining.
 
 ## Syntax  
-`-settings `
+`-settings voicelog`
 
 ## Methods  
 `on, off, set, reset, add, remove`

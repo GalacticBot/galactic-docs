@@ -9,10 +9,14 @@ Configure filtering of discord invites.
 ## Syntax  
 `-settings invitefilter <option|method> <value..>`
 
+## Aliases  
+`invfilter`
+
 ## Methods  
-`on, off, set, reset, add, remove`
+`set, reset, add, remove`
 
 ## Options  
+`<on|off>` - Turn filtering on or off.  
 `ignore <method> <channel..>` - configure which channels are not filtered  
 `bypass <method> <role..>` - configure what roles are immune from the filter  
 `silent <on|off>` - the bot will silently remove invites and not notify the user that their message was filtered if turned on  

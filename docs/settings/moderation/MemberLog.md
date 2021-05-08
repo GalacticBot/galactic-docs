@@ -7,10 +7,13 @@ sidebar_label: Member Logging
 Configure member join and leave logging.
 
 ## Syntax  
-`-settings memberlogs <#channel|option|method> <value..>`
+`-settings memberlog <#channel|option|method> <value..>`
+
+## Aliases  
+`memberlogs, joinlogs, leavelogs, join, leave, joinmessage, leavemessage, joinmsg, leavemsg`
 
 ## Methods  
-`on, off, reset`
+`reset`
 
 ## Tags  
 Tags are replaced in the join message.  

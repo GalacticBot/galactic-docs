@@ -26,7 +26,7 @@ V3 is the latest version and most likely the one that is here to stay. It is sti
 :::
 
 ### ❯ Introduction - What is Galactic?
-Galactic is a powerful moderation bot for servers of all sizes. Galactic also provides some utility features on top of moderation. Everything on the bot serves some kind of purpose, though not everything may be applicable for you needs and as such some features can be turned off per server.
+Galactic is a powerful moderation bot for servers of all sizes. Galactic also provides some utility features on top of moderation. Everything on the bot serves some kind of purpose, though not everything may be applicable for your needs and as such some features can be turned off per server.
 
 ### ❯ Features
 As Galactic is a moderation bot at its core, it naturally has a bunch of moderation commands. This is accompanied by moderation logging and making sure the user is aware of the infraction (provided the configuration is set correctly). The bot allows for fairly extensive configuration for you to tailor it to your server's needs.  
@@ -36,19 +36,19 @@ Galactic also has some premium features that build on top of the existing featur
 ### ❯ Documentation notation
 **Optional** arguments are denoted by being encapsulated in brackets `[ ]` - means that the command will run either with default values or show usage prompt.  
 **Required** arguments are denoted by less and greater than `< >` - means that the command will not run and return an error.  
-**Infinite** arguments (ones you can list several) are denoted by `..` after the argument. Ex `< argument.. >` - means you can pass more than one argument.  
+**Infinite** arguments (ones you can list several) are denoted by `..` after the argument. Ex `<argument..>` - means you can pass more than one argument.  
 **Alternatives** are denoted by being separated by a `|`.  
 **Actual values** that you can use in a command are denoted by being surrounded by single quotes `' '`.  
 
 ### ❯ Arguments
-The bot splits arguments by space unless specified otherwise. To pass an argument that contains spaces you have to encapsulate it in quotes, some exceptions exist.  
+The bot splits arguments by space unless specified otherwise. To pass an argument that contains spaces you have to encapsulate it in quotes, though some exceptions exist.  
 
 **Ex:**  
-`-grant "rolename that contains spaces" < permission >` - quotes are necessary  
+`-grant "rolename that contains spaces" <permission>` - quotes are necessary  
 `-user some user` - quotes not necessary  
 **Typically** if the argument is at the end of a command it won't require quotes.
 
-### ❯ Command aliases
+### ❯ Command and setting aliases
 Most commands and settings have some kind of aliases associated with them, some of which change the behaviour of the command or setting.  
 For instance the **mute setting** has a `createmute` (`-settings createmute <rolename>`) alias, which changes the behaviour to be identical to `-settings mute create <rolename>`.  
 
