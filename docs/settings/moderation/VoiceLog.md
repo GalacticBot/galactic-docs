@@ -6,16 +6,15 @@ sidebar_label: Voice Channel Logging
 
 Configure logging of voice channel leaving and joining.
 
+:::note
+This does **not** record anyone in voice channels, simply joins and leaves from channels
+:::
+
 ## Syntax  
-`-settings voicelog`
+`-settings voicelog <#channel|off>`
 
-## Methods  
-`on, off, set, reset, add, remove`
-
-## Actions  
-`WARN, MUTE, KICK, SOFTBAN, BAN, VCMUTE, VCKICK, VCBAN`
-
-## Options  
-
+## Aliases  
+`voicelogs, vclog, vclogs`
 
 ## Examples  
+`-settings voicelog #logs`
