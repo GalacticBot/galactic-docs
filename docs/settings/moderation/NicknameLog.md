@@ -6,15 +6,14 @@ sidebar_label: Nickname Logging
 
 
 ## Syntax  
-`-settings `
+`-settings nicknamelog <off|channel>`
 
-## Methods  
-`on, off, set, reset, add, remove`
-
-## Actions  
-`WARN, MUTE, KICK, SOFTBAN, BAN, VCMUTE, VCKICK, VCBAN`
+## Aliases  
+`nicknamelogs, nicklog, nicklogs`
 
 ## Options  
-
+`#channel` - Sets the output channel for the logs  
+`off` - Disables the filter
 
 ## Examples  
+`-settings nicknamelog #logs`

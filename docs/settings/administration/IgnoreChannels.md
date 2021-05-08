@@ -7,7 +7,10 @@ sidebar_label: Channel Ignore
 Have the bot ignore commands from users in certain channels. Lets you define roles that bypass the ignore.
 
 ## Syntax  
-`-settings ignore <method|option> [value..]`
+`-settings ignorechannels <method|option> [value..]`
+
+## Aliases
+`ignorechannel, channelignore, channelignores, ignore`
 
 ## Methods
 `add, remove, set, reset, list`

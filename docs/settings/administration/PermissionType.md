@@ -9,6 +9,9 @@ Configure where the bot compares permissions. Can be discord, bot or both permis
 ## Syntax  
 `-settings permissiontype <type>`
 
+## Aliases  
+`permissiontypes, permtypes, permtype`
+
 ## Types  
 `discord` - Command permissions are compared against discord role permissions  
 `grant` - Command permissions are compared against granted permissions (see [grant command](../../commands/admin))  

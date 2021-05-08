@@ -9,15 +9,18 @@ Configure message logging. Message logging has a premium feature for logging att
 ## Syntax  
 `-settings messagelog <option|method|#channel> <value..>`
 
+## Aliases  
+`chatlog, chatlogs, msglogs, msglog, messagelogs`
+
 ## Methods  
-`on, off, set, reset, add, remove`
+`set, reset, add, remove`
 
 ## Options  
-`#channel` - Set the channel for the logs  
-`bypass <method> <value..>` - Configure roles that are ignored by message logs  
-`ignore <method> <value..>` - Define the channels that are ignored by message logs.  
-`attachments <on|off>` - **[Premium]** Toggle attachment logging.  
 `<on|off>` - Toggle the setting on or off.  
+`#channel` - Set the channel for the logs  
+`bypass <method> <role..>` - Configure roles that are ignored by message logs  
+`ignore <method> <channel..>` - Define the channels that are ignored by message logs.  
+`attachments <on|off>` - **[PREMIUM]** Toggle attachment logging.  
 
 ## Examples  
 `-settings messagelog #channel`  

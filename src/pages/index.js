@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: <>Powerful</>,
-    imageUrl: 'img/Rocket.png',
+    imageUrl: 'img/Rocket.svg',
     description: (
       <>
         The Bot has several features crucial for server moderation built into it. 
@@ -60,7 +60,7 @@ function Home() {
   return (
     <Layout
       title={`Get started with ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description="Galactic Bot docs, learn how to use the bot.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>

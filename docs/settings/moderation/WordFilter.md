@@ -9,7 +9,7 @@ A fairly robust word filtering utility. Keep in mind that no word filter will ev
 Any suggestions/recommendations can be directed into the discord server in the #suggestions channel.
 
 ## Syntax  
-`-settings wordfilter <option> <method> [value]`  
+`-settings wordfilter <option|method> <method> [value]`  
 
 ## Methods  
 `add, remove, set, reset, list`  
@@ -32,10 +32,9 @@ Full list of the preset contents will be available at the bottom soon.
 
 ## Options  
 `<on|off>` - Turn filtering on or off.  
-`reset` - Resets the setting to default values.  
-`<list> <method> <word|phrase>` - Modify the selected filter list. Phrases must be enclosed in quotes - "this is a phrase".  
-`bypass <method> <role resolvable>` - Configure the roles that can bypass the filter.  
-`ignore <method> <channel resolvable>` - Configure the channels that are ignored by the filter.  
+`<list> <method> <word..|phrase..>` - Modify the selected filter list. Phrases must be enclosed in quotes - "this is a phrase".  
+`bypass <method> <role..>` - Configure the roles that can bypass the filter.  
+`ignore <method> <channel..>` - Configure the channels that are ignored by the filter.  
 `silent <on|off>` - Toggle inline (responses directly in the channel to the filtered user) responses on or off.  
 `presets <method> <preset>` - Add a preset filter list to the filter.  
 `action <method>` - You can read the detailed documentation about configuring actions [here](../../tutorials/Filters).  
