@@ -15,9 +15,9 @@ Depending on the server configuration, some prompts will not display. For instan
 :::
 
 All of the filters share most of the prompts, however, each filter implements its own trigger. See the relevant filter documentation for further reference.  
-- [Word Filter](../settings/moderation/WordFilter#action-triggers)
-- [Invite Filter](../settings/moderation/InviteFilter#action-triggers)
-- [Link Filter](../settings/moderation/LinkFilter#action-triggers)
+- [Word Filter](../settings/filters/WordFilter#action-triggers)
+- [Invite Filter](../settings/filters/InviteFilter#action-triggers)
+- [Link Filter](../settings/filters/LinkFilter#action-triggers)
 - [Mention Filter]
 
 ## Setting up automated actions  
