@@ -2,6 +2,7 @@
 id: InitialSetup
 title: Initial Configuration
 sidebar_label: Initial Configuration
+sidebar_position: 1
 ---
 
 ## Getting started with Galactic configration  
@@ -57,8 +58,8 @@ Message logs can be configured with `-settings messagelogs #channel`. Make sure 
 Moderation logs are configured in a similar fashion, with `-settings modlogs #channel`. Again, make sure the bot has the necessary permissions in the channel, in this case `SEND_MESSAGES` and `EMBED_LINKS`. If you wish to exclude certain infraction types from being logged you can do so with `-settings modlogs remove <infractionType..>`.
 
 **Relevant links:**  
-[Moderation log setting](../settings/moderation/ModerationLog)  
-[Message log setting](../settings/moderation/MessageLog)  
+[Moderation log setting](../settings/logging/ModerationLog)  
+[Message log setting](../settings/logging/MessageLog)  
 
 ### Mute  
 Setting up mute functionality is easily done with the [mute setting](../settings/moderation/Mute). If you already have an existing mute role, you can designate it as the role the bot should use with `-settings mute "role name"`. If you don't have an existing role and don't want to manually create it, you can have the bot do it for you with `-settings mute create "role name"`.

@@ -1,7 +1,7 @@
 ---
 id: ModerationLog
 title: Moderation logging 
-sidebar_label: Moderation Logging
+sidebar_label: Moderation
 ---
 
 Configure where and which infractions are logged.

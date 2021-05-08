@@ -1,7 +1,7 @@
 ---
 id: MemberLog
 title: Member logging
-sidebar_label: Member Logging
+sidebar_label: Members
 ---
 
 Configure member join and leave logging.

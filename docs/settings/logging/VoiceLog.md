@@ -1,7 +1,7 @@
 ---
 id: VoiceLog
 title: Voice channel activity
-sidebar_label: Voice Channel Logging
+sidebar_label: Voice Channels
 ---
 
 Configure logging of voice channel leaving and joining.

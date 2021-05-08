@@ -1,7 +1,7 @@
 ---
 id: MessageLog
 title: Message logging
-sidebar_label: Message Logging
+sidebar_label: Messages
 ---
 
 Configure message logging. Message logging has a premium feature for logging attachments. To use message logs make sure the bot has permissions to **Manage Webhooks** in the channel.
