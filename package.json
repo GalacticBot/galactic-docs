@@ -1,7 +1,6 @@
 {
   "name": "galactic-docs",
   "version": "0.0.5",
-  "private": false,
   "scripts": {
     "start": "docusaurus start --port 3001 --host 0.0.0.0",
     "serve": "docusaurus serve --build --port 3001 --host 0.0.0.0",
@@ -10,8 +9,8 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.66",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.66",
+    "@docusaurus/core": "^2.0.0-alpha.75",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.75",
     "clsx": "^1.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
