@@ -1,3 +1,6 @@
+## Live page
+https://docs.corgi.wtf/
+
 ## Requirements
 Node.js version 10.15.1 at minimum.  
 [Yarn](https://classic.yarnpkg.com/en/) or [npm](https://www.npmjs.com/) (comes with Node by default, though yarn is a personal recommendation) version 1.5 at minimum.
