@@ -9,7 +9,7 @@ sidebar_label: Moderation
 **Galactic's** moderation commands can be viewed by using `-commands moderation`. The moderation utility follows a specific syntax for moderation, some parts allow for variation, while others require the arguments to be in specific locations in the command.  
 **The general syntax is:** `-<command> @user [time] [reason]`  
 
-Arguments that don't follow a strict pattern can be put anywhere **in the reason**. Such arguments are flags (and points, though they don't follow the same syntax as flags, more on that in a bit). For now there aren't many flags used by the moderation utility, though more may come in the future. The flags currently in use are `--force` and `--expires:<time>`, which are used to guide and override the automod.  
+Arguments that don't follow a strict pattern can be put anywhere **in the reason**. Such arguments are flags (and points, though they don't follow the same syntax as flags, more on that in a bit). For now there aren't many flags used by the moderation utility, though more may come in the future. The flags currently in use are `--force` and `--expires <time>`, which are used to guide and override the automod.  
 
 ## Flags
 `--force` is the flag used to bypass automod, i.e. if you think automod will change your infraction due to a threshold being exceeded pass the `--force` flag to override.  
@@ -26,7 +26,7 @@ Points are the point values defined either when running the command or in the mo
 **Ex:** `-warn @user obnoxious 2 points`  
 
 ## Infraction history
-Infraction history will always be logged to the bot's database regardless of text channel output. As such GalacticBot provides tools to search logs and filter them to some extent with flags, such as `--filter:warn` or `--exclude:mute`.  
+Infraction history will always be logged to the bot's database regardless of text channel output. As such GalacticBot provides tools to search logs and filter them to some extent with flags, such as `--filter warn` or `--exclude mute`.  
 
 When viewing a user's infraction history, the total amount on **unresolved infractions** is shown, and if modpoints are enabled, their unexpired points as well. This does not mean that the infractions are not displayed in their history!  
 
