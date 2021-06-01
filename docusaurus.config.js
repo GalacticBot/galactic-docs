@@ -2,7 +2,7 @@ module.exports = {
   title: 'Galactic Bot',
   tagline: 'Advanced moderation bot for your Discord server',
   url: 'https://docs.corgi.wtf',
-  baseUrl: '/',
+  baseUrl: '/docs/',
   favicon: 'img/GBotTest.ico',
   organizationName: 'galacticbot', // Usually your GitHub org/user name.
   projectName: 'galacticbot', // Usually your repo name.
@@ -29,6 +29,10 @@ module.exports = {
           to: 'blog',
           label: 'Change Log',
           position: 'left'
+        },
+        {
+          label: 'Control Panel',
+          href: 'https://panel.corgi.wtf'
         }
       ],
     },

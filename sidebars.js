@@ -1,10 +1,3 @@
-const fs = require('fs');
-
-const loadPages = (folder) => {
-  const pages = fs.readdirSync(`./docs/${folder}`);
-  return pages.map(page => `${folder}/${page.split('.')[0]}`);
-}
-
 module.exports = {
   docs: [
     'getting-started',
