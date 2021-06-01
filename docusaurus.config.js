@@ -2,7 +2,7 @@ module.exports = {
   title: 'Galactic Bot',
   tagline: 'Advanced moderation bot for your Discord server',
   url: 'https://docs.corgi.wtf',
-  baseUrl: '/docs/',
+  baseUrl: '/documentation/',
   favicon: 'img/GBotTest.ico',
   organizationName: 'galacticbot', // Usually your GitHub org/user name.
   projectName: 'galacticbot', // Usually your repo name.
