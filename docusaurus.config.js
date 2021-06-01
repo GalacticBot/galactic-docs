@@ -32,7 +32,7 @@ module.exports = {
         },
         {
           label: 'Control Panel',
-          href: 'https://panel.corgi.wtf'
+          href: 'https://galactic.corgi.wtf/dashboard'
         }
       ],
     },
