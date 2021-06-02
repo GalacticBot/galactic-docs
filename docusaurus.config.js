@@ -32,6 +32,9 @@ module.exports = {
         },
         {
           label: 'Control Panel',
+          //activeBasePath: '/dashboard',
+          //to: '/dashboard',
+          target: '_self',
           href: 'https://galactic.corgi.wtf/dashboard'
         }
       ],
