@@ -6,7 +6,7 @@ author_image_url: https://i.imgur.com/xzB8BTV.jpg
 autor_title: Developer
 description: First change log entry on the new docs.
 tags: [v3, rollout, update]
-image: https://i.imgur.com/xzB8BTV.jpg
+#image: https://i.imgur.com/xzB8BTV.jpg
 draft: false
 ---
 
