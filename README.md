@@ -1,5 +1,5 @@
 ## Live page
-https://docs.corgi.wtf/
+https://galactic.corgi.wtf/documentation
 
 ## Requirements
 Node.js version 10.15.1 at minimum.  
