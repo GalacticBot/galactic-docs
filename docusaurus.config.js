@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Galactic Bot',
   tagline: 'Advanced moderation bot for your Discord server',
-  url: 'https://galactic.corgi.wtf/documentation',
+  url: 'https://galactic.corgi.wtf',
   baseUrl: '/documentation/',
   favicon: 'img/GBotTest.ico',
   organizationName: 'galacticbot', // Usually your GitHub org/user name.
@@ -10,8 +10,11 @@ module.exports = {
     colorMode: {
       defaultMode: 'dark'
     },
-    hideableSidebar: true,
-    sidebarCollapsible: true,
+    docs: {
+      sidebar: {
+        hideable: true
+      }
+    },
     navbar: {
       title: 'Galactic Bot',
       logo: {
@@ -101,7 +104,8 @@ module.exports = {
           // It is recommended to set document id as docs home page (`docs/` path).
           //homePageId: 'getting-started',
           //frontmatter: 'slug: /',
-          sidebarPath: require.resolve('./sidebars.js')
+          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarCollapsible: true
         },
         blog: {
           
