@@ -96,6 +96,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Galactic Bot. Site built with Docusaurus.`,
     },
   },
+  trailingSlash: false,
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -116,7 +117,6 @@ module.exports = {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
-          trailingSlash: false,
         }
       },
     ],
