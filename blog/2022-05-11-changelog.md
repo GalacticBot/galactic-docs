@@ -7,7 +7,8 @@ autor_title: Developer
 description: Covering the changes with the bot in its first major update in a while.
 tags: [slash commands, update, v3]
 #image: https://i.imgur.com/xzB8BTV.jpg
-draft: true
+# draft: true
+# slug: slash-commands
 ---
 
 

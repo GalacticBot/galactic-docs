@@ -1781,7 +1781,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/plugin-content-blog@npm:2.0.0-beta.20":
+"@docusaurus/plugin-content-blog@npm:2.0.0-beta.20, @docusaurus/plugin-content-blog@npm:^2.0.0-beta.20":
   version: 2.0.0-beta.20
   resolution: "@docusaurus/plugin-content-blog@npm:2.0.0-beta.20"
   dependencies:
@@ -3676,9 +3676,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001332, caniuse-lite@npm:^1.0.30001335":
-  version: 1.0.30001339
-  resolution: "caniuse-lite@npm:1.0.30001339"
-  checksum: be78b1142065646a729bd1ba1a614ab9aeacf903406fea68cee45f8cb885656fcbbb168a57c3c8f25d746b992ab8c554f0ef6f0544f1a97e769ab21686f9414b
+  version: 1.0.30001340
+  resolution: "caniuse-lite@npm:1.0.30001340"
+  checksum: 5cb174d843cf3c9cf675c6462848fe448d090b992f99e32bad169e1ccea92a5c0ae04b84bf2c8f357ee49b6cf04877970091e9018a4f5e93641e1546949b268a
   languageName: node
   linkType: hard
 
@@ -5407,6 +5407,7 @@ fsevents@~2.3.2:
   resolution: "galactic-docs@workspace:."
   dependencies:
     "@docusaurus/core": ^2.0.0-beta.20
+    "@docusaurus/plugin-content-blog": ^2.0.0-beta.20
     "@docusaurus/preset-classic": ^2.0.0-beta.20
     clsx: ^1.1.1
     react: ^16.8.4
@@ -6923,9 +6924,9 @@ fsevents@~2.3.2:
   linkType: hard
 
 "lru-cache@npm:^7.7.1":
-  version: 7.10.0
-  resolution: "lru-cache@npm:7.10.0"
-  checksum: bdf96235eb80a11efb458ecb8771ab76f920ea297c605e9c4b53dfd56dc1749a9855a7e8971a1b12acf098259663dd407bcbec9a7c9c8dd7f6b358ac74bf5278
+  version: 7.10.1
+  resolution: "lru-cache@npm:7.10.1"
+  checksum: 03466214a3ba029685874c32f384f5c1174932f1d1c3aa262957acd940cf8b670834ecddae47eae3b73f663a7823325f95d17e59e5202adbdeae94f1899b90a9
   languageName: node
   linkType: hard
 
