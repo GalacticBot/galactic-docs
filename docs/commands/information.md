@@ -4,15 +4,25 @@ title: Information commands
 sidebar_label: Information
 ---
 
-### Purpose
+# Information Commands
 The information commands are used for help with the bot and general information about the bot and its features.
 
-### Commands
 
-| Name         | Arguments                           | Description                                                                  | Example                                        |
-|--------------|-------------------------------------|------------------------------------------------------------------------------|------------------------------------------------|
-|commands      | [ module ]                          | Displays all the bot's commands, grouped by module.                          | -commands information                          |
-|guild         |                                     | Displays information about the current server.                               | -guild                                         |
-|help          | [ command \| setting \| tag ]       | Displays information information and help for a command or setting.          | -help ban                                      |
-|prefix        |                                     | Tells you the current bot prefix in the server.                              | -prefix                                        |
-|user          | [ user \| search key ]              | Displays information about a user or returns a list of users with the key in their name.| -user navy.gif                      |
+| Name                           | Description                                                                                  |
+|--------------------------------|----------------------------------------------------------------------------------------------|
+| [Commands](##commands)         | List commands on the bot.                                                                    |
+| Server                         | Display information about the server.                                                        |
+| [Help](#help)                  | Display a generic help message or display command or setting help.                           |
+| [Info](#info)                  | Display information about a user, role or channel.                                           |
+| Privacy                        | Display the bot's privacy policy.                                                            |
+
+## Commands
+`module`: Filters commands by module, e.g. 'moderation'.  
+
+## Help  
+`component`: Display the help message for a command or setting, if a setting and command share name use the type to specify, e.g. 'setting:grantable', 'command:grantable'.  
+
+## Info  
+`user`: Displays information about the given user.  
+`role`: Displays information about the given role.  
+`channel`: Displays information about the given channel.  
