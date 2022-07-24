@@ -9,6 +9,10 @@ slug: /
 Advanced moderation bot for servers of any size.
 
 <!--truncate-->
+:::danger Outdated section
+This section was written with text based commands in mind, however the underlying concepts remain the same.  
+Text based commands are being brought back at some point, so this is not being rewritten until then.
+:::
 
 :::caution WIP
 Be aware that the documentation is still in its very early stages and prone to lacking in explanations and documentation. Everything is being worked on, especially the bot, which makes keeping the documentation up to date a challenge.
@@ -20,7 +24,7 @@ If you wish to contribute to the documentation, see our [github page](https://gi
 There are currently 3 versions of Galactic.  
 V1 ~~is completely discontinued and nothing is guaranteed to work.~~ Died completely in February 2021 due to RAID failure, all data was lost  
 V2 is maintained though development is discontinued in favour of working on V3.  
-V3 is the latest version and most likely the one that is here to stay. It is still in early development.  
+V3 is the latest version and most likely the one that is here to stay. It is still being worked on.  
 
 **You can read more about the versions at the bottom of this page.**
 :::
