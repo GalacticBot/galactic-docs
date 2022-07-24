@@ -10,9 +10,7 @@ tags: [slash commands, update, v3]
 # draft: true
 # slug: slash-commands
 ---
-
-
-## If you're reading this before release, this is not a final document!
+#
 
 # A long time coming
 This update has been in the works for a while now, probably around 2 years now, I've honestly lost track.  
@@ -20,12 +18,11 @@ Needless to say, **a lot** has been updated and changed. Initially this rewrite 
 
 Unfortunately midway through development of V3, Discord decided that how bots interact on the platform will change on a somewhat fundamental level. This obviously threw some major wrenches in development. 
 Personally not the biggest fan of this change. Typing in commands with their respective options feels clunkier now and makes some of the commands look odd.  
-Anyway, without further ado...
 
 # The changes  
 
 ## Permissions  
-In case you are not familiar with the slash commands yet, they introduced client-sided permission controls for commands. Basically server administrators can now define who can run certain commands.  
+In case you are not familiar with the slash commands yet, they introduced client-sided permission controls for commands. Basically server administrators can now define who can see and run certain commands.  
 This has some benefits and drawbacks. Firstly the bot defines some default permissions which prohibits normal users from running moderation commands, it sets these based on the permissions that you can see when running `/help component:<command>`.  
 **If you already use Discord based permissions (i.e. you don't use permission types `grant` or `both`) for the bot this changes nothing for you**  
 
@@ -37,7 +34,8 @@ The drawback to this system would be present for those servers that would rather
 Commands have seen some relatively minor changes to them. This should be most if not all of them.
 
 - Moderation and Moderator (log viewing) are now merged into one History command.
-- Tempban is now a subfunctionality of Ban, essentially instead of `/tempban` you now use `/ban` with a time.
+- Tempban is now a subfunctionality of Ban, essentially instead of `/tempban` you now use `/ban` with a time.  
+- Same as above with Hardban, instead of `/hardban` you now use `/ban` with the days option.
 - Reason is now Edit (has been for a while technically, albeit with an alias). Allows editing of more than just the reason.
 - Avatar allows for viewing of server and global avatars depending on which option you use, `member` for the server avatar and `user` for the global one.
 - Poll and Option are now one command with an option to specify the amount of questions.
@@ -88,7 +86,6 @@ Actions allow you to automatically issue infractions to varying degrees of speci
 This new system doesn't require modpoints but easily integrates with them and therefore with the automated infraction escalation.  
 In addition to this, wordfilter and linkfilter are now separated into more lists to allow for more nuanced actions. The wordfilter has also seen an addition of a regex* filter list which both allows for user defined regex as well as presets.
 
-**TODO**  
 The linkfilter has seen the option for a greylist added to it, natively this has no functional difference to the blacklist, both have the messages deleted, this is purely to allow for more nuanced actions, so you can ban for a specific group of links and just delete another.  
 
 There is now also a new filtering-but-not-filtering setting called wordwatcher. Functionally this simply flags messages with certain keywords in them. This setting can use the same subset of regex as the word filter.  
@@ -99,5 +96,8 @@ The wordwatcher is not the only new addition, there is now also a mention filter
 <sub>*To be precise, the bot supports a subset of regex, specifically the following characters: <code>? ( ) | . [ ] -</code>. Any other characters are escaped and treated as normal characters.</sub>  
 
 ## Logging & Automoderation  
-While no fundamental changes to automoderation (filtering) have occurred, they have been improved under the hood, on top of the additional filter lists and actions. The reason logging and automoderation are under the same heading here is because 
-they now work together, in the sense that if a message is filtered, that is now reflected in the message logs, this includes whether the user was sanctioned based on an action for a filter or message flag.
+While no fundamental changes to automoderation (filtering) have occurred, they have been improved under the hood, on top of the additional filter lists and actions. The reason logging and automoderation are under the same heading here is because they now work together, in the sense that if a message is filtered, that is now reflected in the message logs, this includes whether the user was sanctioned based on an action for a filter or message flag.
+
+# Finally
+There have been **a lot** of changes since the previous bot and I'm sure I've missed some. If something here is unclear or you think should be documented clearer, please reach out in the support server.  
+Depending on how dilligently I feel like writing, some of the documentation may be a bit of a work in progress by the time this is released.
