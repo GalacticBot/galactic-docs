@@ -4,6 +4,11 @@ title: Moderation introduction
 sidebar_label: Moderation
 ---
 
+:::danger Outdated section
+This section was written with text based commands in mind, however the underlying concepts remain the same.  
+Text based commands are being brought back at some point, so this is not being rewritten until then.
+:::
+
 **Galactic Bot** offers extensive moderation tools for servers, small and large, ranging from simple warnings and notes to mutes and tempbans. One of our more recent additions is automod. While not necessarily being a true automod in and of itself, it'll keep track of moderation escalation for you with some configuration. Automod utilizes configurable modpoints and thresholds, for more information about automod see `-settings modpoints` and `-settings automod`. To further complement the automated infraction escalation, the various filters can be configured to work in conjunction with the escalations.  
 
 **Galactic's** moderation commands can be viewed by using `-commands moderation`. The moderation utility follows a specific syntax for moderation, some parts allow for variation, while others require the arguments to be in specific locations in the command.  

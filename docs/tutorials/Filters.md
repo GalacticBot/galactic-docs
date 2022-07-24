@@ -6,7 +6,7 @@ sidebar_label: Filters
 
 All of the various filters on the bot support automated moderation actions for filter events. Some filters, such as the word filter allow for extensive configuration, allowing for word specific triggers.  
 
-Configuring the filters is fairly simple through the step-by-step prompts. To start the prompts issue the relevant option for the filter, i.e. `-settings <filter> actions add`.  
+Configuring the filters is fairly simple through the step-by-step prompts. To start the prompts issue the relevant option for the filter, i.e. `/moderation <filter> list:actions method:add`.  
 
 Sometimes the bot takes a few seconds to delete filtered messages, this is intentional as it is done to alleviate rate limiting issues. In turn if someone is spamming filtered content, the bot will remove all of it in batches.  
 
@@ -15,10 +15,10 @@ Depending on the server configuration, some prompts will not display. For instan
 :::
 
 All of the filters share most of the prompts, however, each filter implements its own trigger. See the relevant filter documentation for further reference.  
-- [Word Filter](../settings/filters/WordFilter#action-triggers)
-- [Invite Filter](../settings/filters/InviteFilter#action-triggers)
-- [Link Filter](../settings/filters/LinkFilter#action-triggers)
-- [Mention Filter]
+- [Word Filter](../settings/moderation-settings#word-filter)
+- [Invite Filter](../settings/moderation-settings#invite-filter)
+- [Link Filter](../settings/moderation-settings#link-filter)
+- [Mention Filter](../settings/moderation-settings#mention-filter)
 
 ## Setting up automated actions  
 Beginning the process of setting up automated actions begins with `-settings <filter> actions add`.  

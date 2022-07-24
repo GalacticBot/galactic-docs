@@ -5,6 +5,11 @@ sidebar_label: Initial Configuration
 sidebar_position: 1
 ---
 
+:::danger Outdated section
+This section was written with text based commands in mind, however the underlying concepts remain the same.  
+Text based commands are being brought back at some point, so this is not being rewritten until then.
+:::
+
 ## Getting started with Galactic configration  
 This article is meant to get you started with the basic configuration of the bot with the essential settings for moderation purposes. Remember that the bot is just a tool for your moderation team and ultimately the moderators are responsible for moderation. The purpose of the bot is to streamline your work and complement Discord's features.
 
@@ -29,7 +34,7 @@ The bot can be set to operate in 3 different permission modes:
 - `grant` Only grantable permissions from the bot work with bot commands. (requires you to set everything up yourself)
 - `both` Both discord-based and grantable permissions work with bot commands. Having either a discord permission or a granted permission will let you run the command. (default)  
 
-Changing [Permission Types](../settings/administration/PermissionType) is as simple as using `-settings permissiontype <type>`
+Changing [Permission Types](../settings/admin-settings#permission-type) is as simple as using `-settings permissiontype <type>`
 
 To find out the necessary permissions for each command, run `-help <command>`. Discord based permissions will look like `BAN_MEMBERS`, while a granted permission will look like `command:ban`.  
 Users with insufficient permissions will receive an error message stating that they are missing a permission.
@@ -43,7 +48,7 @@ Only users that the bot considers administrators will be able to use the grant c
 
 ***
 
-While strictly not a permission setting, you may want to block normal users from using commands in every channel. This is something you can configure with the [ignore setting](../settings/administration/IgnoreChannels). Make sure to add your moderator role to the bypass list, otherwise the bot will ignore them too!
+While strictly not a permission setting, you may want to block normal users from using commands in every channel. This is something you can configure with the [ignore setting](../settings/admin-settings#ignore-channels). Make sure to add your moderator role to the bypass list, otherwise the bot will ignore them too!
 
 ***
 
@@ -58,11 +63,11 @@ Message logs can be configured with `-settings messagelogs #channel`. Make sure 
 Moderation logs are configured in a similar fashion, with `-settings modlogs #channel`. Again, make sure the bot has the necessary permissions in the channel, in this case `SEND_MESSAGES` and `EMBED_LINKS`. If you wish to exclude certain infraction types from being logged you can do so with `-settings modlogs remove <infractionType..>`.
 
 **Relevant links:**  
-[Moderation log setting](../settings/logging/ModerationLog)  
-[Message log setting](../settings/logging/MessageLog)  
+[Moderation log setting](../settings/logging-settings#moderation)  
+[Message log setting](../settings/logging-settings#messages)  
 
 ### Mute  
-Setting up mute functionality is easily done with the [mute setting](../settings/moderation/Mute). If you already have an existing mute role, you can designate it as the role the bot should use with `-settings mute "role name"`. If you don't have an existing role and don't want to manually create it, you can have the bot do it for you with `-settings mute create "role name"`.
+Setting up mute functionality is easily done with the [mute setting](../settings/moderation-settings#mute). If you already have an existing mute role, you can designate it as the role the bot should use with `-settings mute "role name"`. If you don't have an existing role and don't want to manually create it, you can have the bot do it for you with `-settings mute create "role name"`.
 
 ## More settings and advanced configuration  
 The bot offers more complex features as well, such as filters and various other logs. To learn about filters see the guide on [filters](./Filters).
