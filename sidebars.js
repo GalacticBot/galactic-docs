@@ -31,7 +31,9 @@ module.exports = {
         }
       ]
     },
-    'premium'
+    'premium',
+    'terms',
+    'privacy'
   ]
 }
 
