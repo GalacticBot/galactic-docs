@@ -15,26 +15,26 @@ Moderation commands require exact user matching, i.e. you must pass something th
 | Name                           | Description                                                                                  |
 |--------------------------------|----------------------------------------------------------------------------------------------|
 | [Ban](#ban)                    | Bans the user(s), optionally for a given time.                                               |
-| [Case](#Case)                  | Display infraction information.                                                              |
+| [Case](#case)                  | Display infraction information.                                                              |
 | [Dehoist](#infraction-commands)| Remove hoisting characters from a user's display name.                                       |
-| [Edit](#Edit)                  | Edit an infraction.                                                                          |
-| [History](#History)            | Display a user's moderation history, can also be used to display a moderator's actions.      |
+| [Edit](#edit)                  | Edit an infraction.                                                                          |
+| [History](#history)            | Display a user's moderation history, can also be used to display a moderator's actions.      |
 | [Kick](#infraction-commands)   | Kick given user(s).                                                                          |
-| [Lockdown](#Lockdown)          | Lockdown given channel(s), optionally for a given duration                                   |
-| [Modtimers](#Modtimers)        | Display active timed infractions.                                                            |
-| [Mute](#Mute)                  | Mute given user(s).                                                                          |
-| [Nickname](#Nickname)          | Change user(s) nickame(s).                                                                   |
+| [Lockdown](#lockdown)          | Lockdown given channel(s), optionally for a given duration                                   |
+| [Modtimers](#modtimers)        | Display active timed infractions.                                                            |
+| [Mute](#mute)                  | Mute given user(s).                                                                          |
+| [Nickname](#nickname)          | Change user(s) nickame(s).                                                                   |
 | [Note](#infraction-commands)   | Add a note to user(s) moderation history.                                                    |
-| [Prune](#Prune)                | Remove several messages from a channel at once.                                              |
-| [Resolve](#Resolve)            | Resolve a case. Undoes the action taken, i.e. will unban a banned user if a ban is resolved. |
-| [Roles](#Roles)                | Manage user(s) roles.                                                                        |
-| [Slowmode](#Slowmode)          | Change the slowmode in channel(s).                                                           |
-| [Softban](#Softban)            | Remove user(s) from the server, removing their recent messages.                              |
-| [Staff](#Staff)                | Used to allow users summon moderators through a role.                                        |
-| [Unban](#Unban)                | Unbans user(s).                                                                              |
-| [Unlockdown](#Unlockdown)      | Lifts lockdown(s).                                                                           |
-| [Unmute](#Unmute)              | Lifts user(s) mute.                                                                          |
-| [Unresolve](#Unresolve)        | Unresolves the case and reapplies the actions.                                               |
+| [Prune](#prune)                | Remove several messages from a channel at once.                                              |
+| [Resolve](#resolve)            | Resolve a case. Undoes the action taken, i.e. will unban a banned user if a ban is resolved. |
+| [Roles](#roles)                | Manage user(s) roles.                                                                        |
+| [Slowmode](#slowmode)          | Change the slowmode in channel(s).                                                           |
+| [Softban](#softban)            | Remove user(s) from the server, removing their recent messages.                              |
+| [Staff](#staff)                | Used to allow users summon moderators through a role.                                        |
+| [Unban](#unban)                | Unbans user(s).                                                                              |
+| [Unlockdown](#unlockdown)      | Lifts lockdown(s).                                                                           |
+| [Unmute](#unmute)              | Lifts user(s) mute.                                                                          |
+| [Unresolve](#unresolve)        | Unresolves the case and reapplies the actions.                                               |
 | [Warn](#infraction-commands)   | Warns the given user(s).                                                                     |
 
 
@@ -137,8 +137,10 @@ Generic moderation related commands.
 `moderator`: Filter by moderator.  
 `channel`: Filter by channel (for infractions like lockdown & slowmode).  
 
-### Modtimers
-No options. 
+### Modtimers  
+List cases with active timers, e.g. timed mutes, bans etc.  
+
+No options.  
 
 ### Resolve  
 `case`: The infraction ID to resolve.  
@@ -146,6 +148,8 @@ No options.
 `notify`: Attempts to notify the user that their infraction has been resolved.  
 
 ### Staff  
+Command for normal users to summon staff. Configured with `/moderation staff`.  
+
 No options.  
 
 ### Unresolve
