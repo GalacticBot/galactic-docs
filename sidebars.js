@@ -1,6 +1,7 @@
 module.exports = {
   docs: [
     'getting-started',
+    'faq',
     {
       type: 'category',
       label: 'Guides',
