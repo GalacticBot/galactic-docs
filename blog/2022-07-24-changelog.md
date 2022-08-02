@@ -27,6 +27,7 @@ This has some benefits and drawbacks. Firstly the bot defines some default permi
 **If you already use Discord based permissions (i.e. you don't use permission types `grant` or `both`) for the bot this changes nothing for you**  
 
 The drawback to this system would be present for those servers that would rather not grant the moderator role any permissions and would rather do permission control through the bot, to bypass this limitation you'd have to permit a role to use the commands, admittedly not a difficult thing to do.  
+To do this, go to `Server Settings` -> `Integrations` -> `Galactic` -> `Command Permissions`, click add roles and add whichever roles you want to be able to run commands that are behind permissions and make sure to click on the checkmark.
 
 **The bot still does its own permissions checks!**
 
