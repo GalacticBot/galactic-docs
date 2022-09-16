@@ -67,6 +67,13 @@ Message logs can be configured with `/logging messages channel:#channel`. Make s
 
 Moderation logs are configured in a similar fashion, with `/logging moderation channel:#channel`. Again, make sure the bot has the necessary permissions in the channel, in this case `SendMessages` and `EmbedLinks`. If you wish to exclude certain infraction types from being logged you can do so with `/logging moderation infractions:remove`, which will prompt you to respond with which infractions to remove.
 
+:::tip
+While not entirely necessary, I would highly recommend enabling error logging with `/logging errors`.  
+This will allow you to track issues you can resolve that may occur otherwise silently, e.g. automoderation issues with permissions.  
+
+It will also give heads up for potentially suspicious links that fail domain validation, but are formed like a valid url otherwise.
+:::
+
 **Relevant links:**  
 [Moderation log setting](../settings/logging-settings#moderation)  
 [Message log setting](../settings/logging-settings#messages)  
