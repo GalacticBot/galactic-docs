@@ -25,7 +25,7 @@ For most settings whenever the setting has multiple lists (e.g. blacklist, greyl
 **Example**  
 To add words to the explicit list of the wordfilter, run the following command:  
 `/moderation wordfilter method:add list:explicit` or  
-`-moderation wordfilter --add --explicit`
+`-moderation wordfilter add explicit`
 These will prompt you to respond with the words to add.
 
 ## How do I grant a mods permissions?  
@@ -44,3 +44,7 @@ Make sure to check the permission type with `/administration permissions`.
 Check the mute type with `/moderation mute`.  
 Some types of mutes don't always work with the way you've configured your permissions. Try changing to a different type and run the create on the existing role to have the bot check its permissions.  
 If neither of these options solve your issue, try using type 3 (uses discord timeouts).
+
+## Missing tempban and hardban
+Tempban is now under the ban command, simply add a duration to the ban.  
+Same with hardban, except use the option days, which tells discord to delete x amount of days worth of messages from the user.  

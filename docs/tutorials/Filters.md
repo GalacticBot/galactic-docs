@@ -21,7 +21,7 @@ All of the filters share most of the prompts, however, each filter implements it
 - [Mention Filter](../settings/moderation-settings#mention-filter)
 
 ## Setting up automated actions  
-Beginning the process of setting up automated actions begins with `-settings <filter> actions add`.  
+Beginning the process of setting up automated actions begins with `/moderation <filter> list:actions method:add` or `-moderation <filter> actions add`.  
 
 The bot will prompt you with selecting which type of infraction it should issue for the trigger. Valid infractions are `warn, mute, kick, ban and softban`.  
 ![Action prompt](../../static/img/action_prompt.png)
