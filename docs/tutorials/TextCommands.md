@@ -22,6 +22,12 @@ Text based commands follow the same structure as slash commands, as in
 
 The primary difference is in how options are parsed. While slash commands make distinguishing where one option ends and another starts very easy, text commands are a bit trickier in that regard, there is no clear delimiter for where one ends and another starts. This is why some options are defined as flags (as in they are prefixed with --). You can check which options are parsed as flags with the `/help` command. Non-flag options will try to parse their expected value from the command directly (i.e. there's no need to prefix it with the option's name). 
 
+:::tip
+When using text commands, you don't need to give the option name, just the value.  
+
+Ex. `/warn users:user#1234 reason:some reason` is just `-warn user#1234 some reason`.
+:::
+
 ### Option Parsing
 Take for instance the ban command, it expects at least the users option, and for this example we'll also give it a time and point value, so the command structure is  
 `-ban <USERS> [TIME] [POINTS] [REASON]` - The order of these is completely arbitrary, but all values for one option need to be consecutive.  

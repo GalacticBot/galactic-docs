@@ -6,7 +6,7 @@ sidebar_label: FAQ
 
 This document is a collection of questions that get asked rather frequently and is updated whenever necessary. If your question isn't answered here or something is still unclear, please start a thread in the support forum in the server.
 
-## Can I revert to the old commands?
+## Can I revert to the old (text) commands?
 See [this article](./tutorials/TextCommands)
 
 ## Mods can't see slash command 
@@ -18,6 +18,12 @@ This is done using the `enabled` option. With text commandds you can use `--enab
 **Example**   
 `/moderation wordfilter enabled:False`  
 `-moderation wordfilter --enabled false`  
+
+## Emojis aren't working  
+This is an issue with how permissions work with webhooks (slash commands are webhooks under the hood).  
+Unfortunately there isn't anything *I* can do to remedy that, however, you can enable the use of external emojis for the everyone role, which should fix the issue.  
+
+If that isn't an option, consider using the text commands instead, they seem to work fine with emojis.  
 
 ## How do I add x to y filter?  
 For most settings whenever the setting has multiple lists (e.g. blacklist, greylist, ignore, bypass, etc.) you choose the list with the `list:` option. This option is always accompanied by the `method:` option to select what you're doing to the list, that is to say if you're adding you use `method:add`. For some settings that only have one or two lists the method will be named as the list, for instance `/administration protection roles:add`.  
